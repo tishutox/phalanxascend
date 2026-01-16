@@ -283,7 +283,7 @@ main p{
 }
 .footer-inner{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr auto 1fr;
   grid-template-areas: "social logo legal";
   align-items: center;
   gap: clamp(1rem, 3vw, 2.5rem);
@@ -302,7 +302,7 @@ main p{
 .footer-logo{ grid-area: logo; }
 .footer-legal{ grid-area: legal; }
 .footer-social{
-  justify-content: flex-start;
+  justify-content: flex-end;
   gap: .75rem;
 }
 .footer-social i{
@@ -317,7 +317,7 @@ main p{
   width: auto;
 }
 .footer-legal{
-  justify-content: flex-end;
+  justify-content: flex-start;
   gap: .5rem;
 }
 .footer-legal .divider{
