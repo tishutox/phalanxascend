@@ -216,10 +216,12 @@ main p{
   .container{
     border: none;
     padding: 0;
+    margin-bottom: 10px;
   }
   .container.video-hero {
-    min-height: 250px;
-    margin-bottom: 20px;
+    min-height: 200px;
+    margin-bottom: 10px;
+    border-radius: 0.8em;
   }
   #sidebar{
     height: 60px;
