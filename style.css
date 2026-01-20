@@ -4,7 +4,7 @@
   --line-clr: #2a2a2a;
   --hover-clr: #111111;
   --text-clr: #ffffff;
-  --accent-clr: #e10600;
+  --accent-clr: #c28d47;
   --secondary-text-clr: #c2c2c2;
   --footer-side-gap: min(30px, 7%);
 }
@@ -278,9 +278,9 @@ main p{
 }
 
 .hero-btn-primary {
-  background-color: #e10600;
+  background-color: #c28d47;
   color: var(--base-clr);
-  border: 2px solid #e10600;
+  border: 2px solid #c28d47;
 }
 
 .hero-btn-primary:hover {
