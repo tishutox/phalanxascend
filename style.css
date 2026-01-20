@@ -4,7 +4,7 @@
   --line-clr: #2a2a2a;
   --hover-clr: #111111;
   --text-clr: #ffffff;
-  --accent-clr: #fe0353;
+  --accent-clr: #e10600;
   --secondary-text-clr: #c2c2c2;
   --footer-side-gap: min(30px, 7%);
 }
@@ -343,6 +343,12 @@ main p{
 }
 .footer-social i{
   font-size: 22px;
+}
+.footer-social a[aria-label="Discord"]:hover i{
+  color: #7289da;
+}
+.footer-social a[aria-label="Instagram"]:hover i{
+  color: #c1558b;
 }
 .footer-logo{
   justify-content: center;
