@@ -571,4 +571,7 @@ main p{
     grid-column: 1; 
     padding-bottom: 0; 
   }
+  .footer-divider{
+    grid-column: 1;
+  }
 }
