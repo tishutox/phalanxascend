@@ -212,6 +212,24 @@ main p{
   margin-bottom: 0;
 }
 
+#maennlich {
+  padding: 0;
+  border: none;
+}
+
+#maennlich iframe {
+  border-radius: 1em;
+}
+
+#weiblich {
+  padding: 0;
+  border: none;
+}
+
+#weiblich iframe {
+  border-radius: 1em;
+}
+
 .container.video-hero {
   border: none;
   border-radius: 1em;
